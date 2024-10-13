@@ -1,0 +1,92 @@
+{
+  "stats": {
+    "suites": 0,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2024-10-06T16:18:31.372Z",
+    "end": "2024-10-06T16:18:31.683Z",
+    "duration": 311,
+    "testsRegistered": 1,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "c1e880b0-0258-4467-80c7-17442ee4a6a8",
+      "title": "",
+      "fullFile": "cypress\\Integration\\Examples\\BDD\\Ecom.feature",
+      "file": "cypress\\Integration\\Examples\\BDD\\Ecom.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [
+        {
+          "title": "An uncaught error was detected outside of a test",
+          "fullTitle": "An uncaught error was detected outside of a test",
+          "timedOut": null,
+          "duration": 244,
+          "state": "failed",
+          "speed": null,
+          "pass": false,
+          "fail": true,
+          "pending": false,
+          "context": "{\n  \"title\": \"cypress-mochawesome-reporter-screenshots\",\n  \"value\": [\n    [\n      \"\\\\Ecom.feature\\\\An uncaught error was detected outside of a test (failed).png\"\n    ]\n  ]\n}",
+          "code": "throw err;",
+          "err": {
+            "message": "ReferenceError: The following error originated from your test code, not from Cypress.\n\n  > HomePage is not defined\n\nWhen Cypress detects uncaught errors originating from your test code it will automatically fail the current test.\n\nCypress could not associate this error to any specific test.\n\nWe dynamically generated a new test to display this failure.",
+            "estack": "ReferenceError: The following error originated from your test code, not from Cypress.\n\n  > HomePage is not defined\n\nWhen Cypress detects uncaught errors originating from your test code it will automatically fail the current test.\n\nCypress could not associate this error to any specific test.\n\nWe dynamically generated a new test to display this failure.\n    at 2.@badeball/cypress-cucumber-preprocessor (cypress/Integration/Examples/BDD/Ecom.js:2:17)\n    at o (node_modules/browser-pack/_prelude.js:1:0)\n    at eval (node_modules/browser-pack/_prelude.js:1:0)\n    at 1.C:\\Users\\ACER\\Desktop\\LearnCypress\\cypress\\Integration\\Examples\\BDD\\Ecom.js (cypress/Integration/Examples/BDD/Ecom.feature:5:0)\n    at o (node_modules/browser-pack/_prelude.js:1:0)\n    at r (node_modules/browser-pack/_prelude.js:1:0)\n    at eval (node_modules/browser-pack/_prelude.js:1:0)\n    at eval (<anonymous>)",
+            "diff": null
+          },
+          "uuid": "f14e1843-17e8-4bd2-a914-3b51c5ff9ef4",
+          "parentUUID": "c1e880b0-0258-4467-80c7-17442ee4a6a8",
+          "isHook": false,
+          "skipped": false
+        }
+      ],
+      "suites": [],
+      "passes": [],
+      "failures": [
+        "f14e1843-17e8-4bd2-a914-3b51c5ff9ef4"
+      ],
+      "pending": [],
+      "skipped": [],
+      "duration": 244,
+      "root": true,
+      "rootEmpty": false,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress\\reports\\.jsons",
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "embeddedScreenshots": true,
+        "inlineAssets": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}

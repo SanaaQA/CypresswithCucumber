@@ -1,0 +1,20 @@
+{
+  "name": "learncypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run --record --key af160b51-f683-4fc6-8ed6-84750be8607f",
+    "test2headed": "npx cypress run --record --key af160b51-f683-4fc6-8ed6-84750be8607f --headed"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cypress/browserify-preprocessor": "^3.0.2",
+    "cypress": "^13.14.2",
+    "cypress-mochawesome-reporter": "^3.8.2"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^21.0.2"
+  }
+}

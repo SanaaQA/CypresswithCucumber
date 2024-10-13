@@ -1,0 +1,7 @@
+{
+  "name": "Sana",
+  "gender":"Female",
+  "productNameList": ["Blackberry","Nokia Edge"],
+  "country": "India",
+  "body": "Fixtures are a great way to mock data for responses to routes"
+}
