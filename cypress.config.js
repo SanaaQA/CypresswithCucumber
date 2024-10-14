@@ -18,7 +18,8 @@ module.exports = defineConfig({
 
   e2e: {
     setupNodeEvents,
-    specPattern : 'cypress/Integration/Examples/BDD/*.feature',
+    //specPattern : 'cypress/Integration/Examples/BDD/*.feature',
+    specPattern : 'cypress/Integration/Examples/*.js',
 
     reporter: 'cypress-mochawesome-reporter',
     reporterOptions: {
